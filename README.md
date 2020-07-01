@@ -6,8 +6,8 @@ npm i
 ```
 ### Rout Path
 ``` 
-/user  {GET}
-/user[param] {GET}
+/users  {GET}
+/users[param] {GET}
 /register {POST}
 /login {POST}
 ```
