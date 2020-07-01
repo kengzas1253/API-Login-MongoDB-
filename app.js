@@ -1,7 +1,11 @@
 let express = require('express');
-let mongoose = require('mongoose')
+let mongoose = require('mongoose');
+let cors = require("cors");
+
 const app = express();
 app.use(express.json());
+app.use(cors());
+
 app.get('/', (req, res)=>{
     res.send('Welcome to Mylogin MongoDB </br> router to </br> [GET] /users</br>[POST] /register</br> [POST] /login')
  });
