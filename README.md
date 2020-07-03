@@ -6,7 +6,7 @@ npm i
 ```
 ### app2.js full version
 ```
-add
+cors
 jwt
 bcypth
 ```
