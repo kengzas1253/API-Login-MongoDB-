@@ -4,6 +4,11 @@
 # install
 npm i
 ```
+# app2.js full version
+add
+jwt
+bcypth
+```
 ### Rout Path
 ``` 
 /users  {GET}
